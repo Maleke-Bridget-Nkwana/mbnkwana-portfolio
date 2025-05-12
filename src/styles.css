@@ -1,0 +1,77 @@
+/*Base styles*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f3f0;
+  color: #212121;
+  line-height: 1.6;
+}
+
+/*Header*/
+header {
+  background-color: #3e2723;
+  color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #f48fb1;
+}
+
+/*Hero Section*/
+#hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #ffe4ec;
+}
+
+#hero h1 {
+  font-size: 48px;
+  color: #3e2723;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #e91e63;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #c2185b;
+}
